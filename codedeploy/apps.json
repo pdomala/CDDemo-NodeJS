@@ -1,0 +1,13 @@
+{
+  "apps" : [{
+    "name": "server",
+    "cwd": "/home/ubuntu/",
+    "script": "./app.js",
+    "watch": false,
+    "log_date_format" : "YYYY-MM-DD HH:mm:ss Z",
+    "instances" : "1",
+    "exec_mode" : "cluster_mode",
+    "exec_interpreter": "node",
+    "min_uptime": 5000
+  }]
+}
